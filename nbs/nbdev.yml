@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_guide"
+  site-url: "https://ayushmandloi2.github.io/nbdev_guide"
+  description: "A cool python documentation."
+  repo-branch: main
+  repo-url: "https://github.com/ayushmandloi2/nbdev_guide"
