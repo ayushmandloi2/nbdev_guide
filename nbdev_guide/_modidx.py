@@ -5,4 +5,9 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ayushmandloi2.github.io',
                 'git_url': 'https://github.com/ayushmandloi2/nbdev_guide',
                 'lib_path': 'nbdev_guide'},
-  'syms': {'nbdev_guide.core': {'nbdev_guide.core.foo': ('core.html#foo', 'nbdev_guide/core.py')}}}
+  'syms': { 'nbdev_guide.abc': { 'nbdev_guide.abc.foo': ('cell.html#foo', 'nbdev_guide/abc.py'),
+                                 'nbdev_guide.abc.print_something': ('cell.html#print_something', 'nbdev_guide/abc.py')},
+            'nbdev_guide.cards': { 'nbdev_guide.cards.foo': ('cards.html#foo', 'nbdev_guide/cards.py'),
+                                   'nbdev_guide.cards.print_something': ('cards.html#print_something', 'nbdev_guide/cards.py')},
+            'nbdev_guide.core': {'nbdev_guide.core.foo': ('core.html#foo', 'nbdev_guide/core.py')},
+            'nbdev_guide.deck': {'nbdev_guide.deck.foo': ('deck.html#foo', 'nbdev_guide/deck.py')}}}
